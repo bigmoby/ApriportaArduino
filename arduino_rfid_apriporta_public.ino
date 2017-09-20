@@ -3,6 +3,8 @@
   al passaggio di una tessera magnetica sul lettore RFID.
   Se la tessera viene riconosciuta si accende un led verde e commuta il relè,
   altrimenti un led rosso per indicarci l`inaccessibilità.
+  
+  Autore Salvatore Fancello
 
   PINOUT:
 
