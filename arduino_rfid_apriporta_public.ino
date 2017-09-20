@@ -129,8 +129,6 @@ String hex2str(byte *buffer, byte bufferSize) {
   return tmp;
 }
 
-
-// Questa funzione verifica se il codice Letto è autorizzato
 boolean verificaCodice(String codiceLetto, String codiceAutorizzato) {
   if (codiceLetto.equals(codiceAutorizzato)) {
     return true;
@@ -139,7 +137,6 @@ boolean verificaCodice(String codiceLetto, String codiceAutorizzato) {
   }
 }
 
-// Questa funzione permette di accendere un LED per un determinato periodo
 void accendiLed(int ledPin) {
   digitalWrite(ledPin, HIGH);
   delay(delayLed);
